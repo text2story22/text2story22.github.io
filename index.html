@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+
+    <link rel="stylesheet" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css" type="text/css" /> -->
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Text2Story Workshop 2021</title>
+
+    <!-- web-fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,500' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Style CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="icon" href="img/t2s-logo.ico">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <div id="main-wrapper">
+        <!-- Page Preloader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="status-mes"></div>
+            </div>
+        </div> -->
+
+        <header class="header">
+            <!-- Navigation -->
+            <nav class="navbar main-menu" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                            data-target=".navbar-main-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand page-scroll" href="#page-top" style="padding-top:10px">
+                            <!-- <img src="img/logo.png" alt=""> -->
+                            <strong>Text2Story 2021</strong>
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                        <ul class="nav navbar-nav" style="font-size: 13px;">
+                            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                            <li class="hidden"><a href="#page-top"></a></li>
+                            <li><a class="page-scroll" href="#section-topics">Call for papers</a></li>
+                            <li><a class="page-scroll" href="#section-keydates">Key dates</a></li>
+                            <li><a class="page-scroll" href="#section-guidelines">Submissions</a></li>
+                            <li><a class="page-scroll" href="#section-organization">Organization</a></li>
+
+                            <li><a class="page-scroll" href="#section-speaker">Speakers</a></li>
+                            <li><a class="page-scroll" href="#section-programme">Program</a></li>
+                            
+                            <li><a href="http://ceur-ws.org/Vol-2860/" target="_blank">Proceedings</a></li>
+
+                            <li><a class="page-scroll" href="#section-attending">Attending</a></li>
+
+
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container -->
+            </nav>
+
+            <!-- .nav -->
+
+        </header>
+
+
+        <div class="jumbotron text-center">
+            <div class="content">
+                <div class="event-date">April 1st, 2021 - Lucca, Italy - Online Event</div>
+                <h1>Text2Story 2021</h1>
+                <p class="lead">Fourth International Workshop on Narrative Extraction from Texts
+                    <br />
+                    held in conjunction with the 43rd European Conference on Information Retrieval
+
+                </p>
+                <a href="#section-topics" class="page-scroll btn btn-default btn-lg">Call for papers</a>
+                <!-- <button type="button" class="btn btn-default btn-lg" >Call for papers</button> -->
+            </div>
+        </div>
+        <!-- .Jumbotron-->
+
+        <!-- .about-event -->
+
+        <section id="section-topics" class="section-wrapper section-topics">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Call for papers</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p>
+                        Although the understanding of natural language has improved over the last couple of years - with
+                        research works emerging on the grounds of information extraction and text mining - the problem
+                        of constructing consistent narrative structures is yet to be solved. In the fourth edition of
+                        the Text2Story workshop, we aim to foster the discussion of recent advances in the link between
+                        Information Retrieval (IR) and formal narrative representations from texts. Specifically, we aim
+                        to provide a common forum to consolidate the multi-disciplinary efforts and foster discussions
+                        to identify the wide-ranging issues related to the narrative extraction task. To this regard, we
+                        encourage the submission of high-quality and original submissions covering the following topics:
+                    </p>
+
+
+
+                    <p>
+
+                    <ul style="list-style-type:disc">
+
+                        <li>Narrative Representation Language</li>
+                        <li>Story Evolution and Shift Detection</li>
+                        <li>Event Identification</li>
+                        <li>Temporal Information Extraction</li>
+                        <li>Temporal Relation Identification</li>
+                        <li>Temporal Reasoning</li>
+                        <li>Causal Relation Extraction and Arrangement</li>
+                        <li>Event Detection, Profiling, Ordering and Linking</li>
+                        <li>Narrative Summarization</li>
+                        <li>Multi-modal Summarization</li>
+                        <li>Automatic Timeline Generation</li>
+                        <li>Storyline Visualization</li>
+                        <li>Temporal Aspects of Storylines</li>
+                        <li>Comprehension of Generated Narratives and Timelines</li>
+                        <li>Evaluation Methodologies for Narrative Extraction</li>
+                        <li>Resources and Dataset showcase</li>
+                        <li>Big data applied to Narrative Extraction</li>
+                        <li>Personalization and Recommendation</li>
+                        <li>User Profiling and User Behavior Modeling</li>
+                        <li>Sentiment and Opinion Detection in Texts</li>
+                        <li>Argumentation Mining</li>
+                        <li>Credibility</li>
+                        <li>Models for detection and removal of bias in generated stories</li>
+                        <li>Ethical and fair narrative generation</li>
+                        <li>Fact-Checking</li>
+                        <li>Bias in Text Documents</li>
+                        <li>Bots Influence</li>
+                        <li>Information Retrieval Models based on Story Evolution</li>
+                        <li>Temporal Information Retrieval and Narrative Extraction</li>
+                        <li>Narrative-focused Search in Text Collections</li>
+                        <li>Event and Entity importance Estimation in Narratives</li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="section-keydates" class="section-wrapper team ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Important Dates</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>
+
+                    <ul style="list-style-type:disc">
+
+                        <li>Submission deadline: <del>January 11th, 2021</del> <del><font color="red">January 18th, 2021</font></del> <del><font color="red">January 25th, 2021</font></del> <strong><font color="red">February 8th, 2021</font></strong> </li>
+                        <li>Acceptance Notification Date: <del>February 5th, 2021</del> <del><font color="red">February 12th, 2021</font></del> <strong><font color="red">February 26th, 2021</font></strong> </li>
+                        <li>Camera-ready copies: <del>February 28th, 2021</del> <strong><font color="red">March 12th, 2021</font></strong> </li>
+                        <li>Workshop: <strong> April 1st, 2021 </strong></li>
+
+                        <ul>
+                            </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="section-guidelines" class="section-wrapper section-guidelines">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Submissions</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <p>
+                        We invite two kinds of submissions:
+                    <ul style="list-style-type:disc">
+                        <li>Research papers (max 7 pages + references)</li>
+                        <li>Demos and position papers (max 5 pages + references)</li>
+                        <li>Work in progress and project description papers (max 4 pages + references)</li>
+                        <li>Nectar papers with a summary of own work published in other conferences or journals that is worthwhile sharing with the Text2Story community, by emphasizing how it can be applied for narrative extraction, processing or storytelling, adding some more insights or discussions; novel aspects, results or case studies (max 3 pages + references)</li>
+                    </ul>
+                    </p>
+                    <p>
+                        All papers must be formatted according to the <a
+                            href="https://www.springer.com/gp/computer-science/lncs/conference-proceedings-guidelines"
+                            target="_blank">LNCS format style.</a>
+                        Papers must be submitted electronically in PDF format through <a
+                            href="https://easychair.org/conferences/?conf=text2story2021" target="_blank">our Easy Chair
+                            link</a>.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="section-organization" class="section-wrapper team ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Organization</h1>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-title">
+                                    <h3>Organizing Committee</h3>
+
+                                    <ul>
+                                        <li><a href="http://www.ccc.ipt.pt/~ricardo/" target="_blank">Ricardo Campos
+                                            </a><span style="color: grey">(INESC TEC; 2Ci2-Smart Cities Research Center
+                                                -
+                                                Polytechnic Institute of Tomar, Tomar, Portugal)</span></li>
+                                        <li><a href="https://www.dcc.fc.up.pt/~amjorge/" target="_blank">Alípio M.
+                                                Jorge </a><span style="color: grey">(INESC TEC; University of Porto,
+                                                Portugal)</span>
+                                        </li>
+                                        <li><a href="https://adammo12.github.io/adamjatowt/" target="_blank">Adam Jatowt
+                                            </a><span style="color: grey">(University of Innsbruck, Austria)</span></li>
+                                        <li><a href="http://sumitbhatia.net/" target="_blank">Sumit Bhatia </a><span
+                                                style="color: grey">(IBM Research AI, India)</span></li>
+                                        <li><a href="https://users.cs.fiu.edu/~markaf/" target="_blank">Mark Finlayson
+                                            </a><span style="color: grey">(Florida International University, USA)</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="section-title">
+
+                                    <h3>Program Committee</h3>
+
+                                    <div class="row text-center">
+                                        <ul>
+                                            <li>Álvaro Figueira (INESC TEC & University of Porto)</li>
+                                            <li>Andreas Spitz (École polytechnique fédérale de Lausanne)</li>
+                                            <li>António Horta Branco (University of Lisbon)</li>
+                                            <li>Arian Pasquali (CitizenLab)</li>
+                                            <li>Brenda Santana (Universidade Federal do Rio Grande do Sul)</li>
+                                            <li>Bruno Martins (IST and INESC-ID - Instituto Superior Técnico, University of Lisbon)</li>
+                                            <li>Daniel Gomes (FCT/Arquivo.pt)</li>
+                                            <li>Daniel Loureiro (University of Porto)</li>
+                                            <li>Demian Gholipour (University College Dublin)</li>
+                                            <li>Denilson Barbosa (University of Alberta)</li>
+                                            <li>Deya Banisakher (Florida International University)</li>
+                                            <li>Dhruv Gupta (Max Planck Institute for Informatics)</li>
+                                            <li>Dwaipayan Roy (Indian Statistical Institute, Kolkata)</li>
+                                            <li>Evelin Amorim (INESC TEC)</li>
+                                            <li>Florian Boudin (Université de Nantes)</li>
+                                            <li>Gaël Dias (Université de Caen Normandie)</li>
+                                            <li>Grigorios Tsoumakas (Aristotle University of Thessaloniki)</li>
+                                            <li>Henrique Lopes Cardoso (University of Porto)</li>
+                                            <li>Ismail Sengor Altingovde (Middle East Technical University)</li>
+                                            <li>Jeffery Ansah (Corvid AI)</li>
+                                            <li>Jeremy Pickens (OpenText)</li>
+                                            <li>João Paulo Cordeiro (INESC TEC; Universidade da Beira do Interior)</li>
+                                            <li>Kiran Bandeli (University of Arkansas at Little Rock)</li>
+                                            <li>Ludovic Moncla (INSA Lyon)</li>
+                                            <li>Marc Spaniol (Université de Caen Normandie)</li>
+                                            <li>Nina Tahmasebi (University of Gothenburg)</li>
+                                            <li>Nuno Moniz (INESC TEC & University of Porto)</li>
+                                            <li>Pablo Gamallo (University of Santiago de Compostela)</li>
+                                            <li>Paulo Quaresma (Universidade de Évora)</li>
+                                            <li>Preslav Nakov (Qatar Computing Research Institute (QCRI))</li>
+                                            <li>Ross Purves (University of Zurich)</li>
+                                            <li>Satya Almasian (Heidelberg University)</li>
+                                            <li>Sérgio Nunes (INESC TEC & University of Porto)</li>
+                                            <li>Udo Kruschwitz (University of Regensburg)</li>
+                                            <li>Yihong Zhang (Osaka University)</li>
+                                            <li>Yating Zhang (Alibaba)</li>
+                                            <li>Sebastião Miranda (Priberam)</li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="section-title">
+
+                                <h3>Proceedings Chair</h3>
+
+                                <ul>
+                                    <li>João Paulo Cordeiro <span style="color: grey">(INESC TEC; Universidade da Beira
+                                            do Interior, Covilhã, Portugal)</span></li>
+                                    <li>Conceição Rocha <span style="color: grey">(INESC TEC)</span></li>
+
+
+                                </ul>
+                            </div>
+
+                            <div class="section-title">
+
+                                <h3>Web and Dissemination Chair</h3>
+
+                                <ul>
+                                    <li>Arian Pasquali <span style="color: grey">(CitizenLab)</span></li>
+                                    <li>Behrooz Mansouri <span style="color: grey">(Rochester Institute of
+                                            Technology)</span></li>
+                                    <li>Alexandre Ribeiro <span style="color: grey">(INESC TEC)</span></li>
+                                    <li>Jeffery Ansah <span style="color: grey">(Corvid AI)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+        <section id="section-speaker" class="section-wrapper team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Invited Speakers</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <h3>Storytelling through infographics</h3>
+    
+                    <h4>
+                        <strong>Speaker: </strong> 
+                        <a href="https://www.publico.pt/autor/jose-alves" target="_blank">José Alves</a> and <a href="https://www.publico.pt/autor/celia-rodrigues" target="_blank">Célia Rodrigues</a>, Jornal Público
+                    </h4>
+
+                    <p>
+                        <strong>Abstract: </strong> 
+                        Infographics have always been one of the references of Público's newspaper, with a national and international recognition. Visualizing information, whether qualitative or quantitative, is a must-have skill in an era of undoubted reinforcement of digital media. Our work takes more and more relevance with the growing of visual journalism. From print to digital, a lot has changed. New tools, new ways of thinking, new approaches but the basics remain the same... how to give the reader the best information in a clear and well designed way.
+                    </p>
+                    <p>
+                        <strong>Bio (José Alves): </strong>
+                        José Alves started in 1996 in the world of magazine infographics. Ten years in specialized magazines and fourteen years in national information newspapers. From leisure to news, pinching specialized topics, the support is no longer just paper, but has been animation and online for some time.
+                    </p>
+
+                    <p>
+                        <strong>Bio (Célia Rodrigues): </strong>
+                        Célia Rodrigues is an infographic designer at the newspaper Público, since its foundation in 1990. She has a Sociology and Planning BSc. from ISCTE and a Postgraduate Degree in Information Visualisation from FCSH, Universidade Nova. Célia has additional training in photojournalism, by Cenjor, and visualisation and data journalism by the Knight Center for Journalism. Since June 2018, Célia is the coordinator of the infographics section of Público.
+                    </p>
+                </div>
+
+                <div class="row ">
+                    <h3>A conversation with Leila Zia</h3>
+    
+                    <h4>
+                        <strong>Speaker: </strong>
+                        <a href="https://wikimediafoundation.org/profile/leila-zia/" target="_blank">Leila Zia</a>, Head of Research at the Wikimedia Foundation
+                    </h4>
+                    <p>
+                        <strong>Bio: </strong>
+                        Leila Zia is the Head of Research at the Wikimedia Foundation, the foundation that operates Wikipedia and its sister projects. Her research interests include quantifying and addressing the gaps of knowledge in Wikipedia and Wikidata, understanding Wikipedia's readers, and studying the contributor diversity on the Wikimedia projects. She has served as the general co-chair of The Web Conference 2019 (formerly known as WWW) and she currently serves as the program committee co-chair of The Web Conference 2021. She received her PhD from Stanford University in Management Science and Engineering.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="section-programme" class="section-wrapper team ">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Programme</h1>
+                        </div>
+                    </div>
+                    <p>
+                        Click <a href="slides/text2story21_workshop_slides.zip">here</a> to download the presentations slides. 
+                        The recorded presentations will be available on our <a href="https://www.youtube.com/playlist?list=PLUa5fBAPctfRuJh_ZyeZkQ5CI1Z_IVX6h" target="_blank">YouTube channel</a>.
+                        <!-- You can also access a <a href="https://www.youtube.com/watch?v=pJVcwo_75VA&amp;list=PLUa5fBAPctfTy4BPu_bjY5CVENEmn78q-" target="_blank">playlist</a> with the talks listed in the same order as the program. -->
+                        <br>
+                        Displaying agenda in event timezone (Italy local time).
+                    </p>
+                </div>
+
+                <div class="row">
+                    <table style="border-collapse: separate; border-spacing:0 5px;">
+                    <thead>
+                      <tr>
+                          <th style="min-width: 125px;"></th>
+                          <th></th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr style="vertical-align: top; padding-bottom: 1em;">
+                            <td style="vertical-align: top; padding-bottom: 1em;">09h00 – 09h15</td>
+                            <td>Introduction<br><span style="color: grey;">(<strong>Ricardo Campos</strong>)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Ricardo Campos</td></tr>
+
+                        <tr>
+                            <td style="vertical-align: top;">09h15 – 10h00</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Keynote 1: Storytelling through infographics<br><span style="color: grey;">(<strong>José Alves, Célia Rodrigues</strong>, Jornal Público)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Sumit Bhatia</td></tr>
+
+                        <tr>
+                            <td style="vertical-align: top">10h00 – 10h30</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">A Model of Interpretation of Embedded Stories<br><span style="color: grey;">(<strong>Pablo Gervás</strong>)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">10h30 – 11h00</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Coffee Break<br><span style="color: grey;"></span></td>
+                        </tr>
+                        
+                        <tr style="color: grey;"><td>Session Chair: Adam Jatowt</td></tr>
+
+                        <tr>                      
+                            <td style="vertical-align: top">11h00 – 11h30 </td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">The Nectar of Missing Position Prediction for Story Completion<br><span style="color: grey;">(<strong>Yusuke Mori</strong>, Hiroaki Yamane, Yusuke Mukuta and Tatsuya Harada)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">11h30 – 12h00</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">A Pilot Study on Annotating Scenes in Narrative Text using SceneML<br><span style="color: grey;">(<strong>Tarfah Alrashid</strong> and Robert Gaizauskas)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Jannik Strotgen</td></tr>
+                        
+                        <tr>
+                            <td style="vertical-align: top">12h00 – 12h30</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">THEaiTRE 1.0: Interactive generation of theatre play scripts<br><span style="color: grey;">(<strong>Rudolf Rosa</strong>, Tomáš Musil, Ondrej Dusek, Dominik Jurko, Patrícia Schmidtová, David Marecek, Ondřej Bojar, Tom Kocmi, Daniel Hrbek, David Košťák, Martina Kinská, Marie Nováková, Josef Doležal, Klára Vosecká, Tomáš Studeník and Petr Žabka)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">12h30 – 13h00</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Demonstrating Narrative Bindings: Linking Discourses to Knowledge Repositories<br><span style="color: grey;">(<strong>Hermann Kroll</strong>, Denis Nagel, Morris Kunz and Wolf-Tilo Balke)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">13h00 – 14h15</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Lunch Break<br><span style="color: grey;"></span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: João Magalhães</td></tr>
+
+                        <tr>
+                            <td style="vertical-align: top">14h15 – 14h45</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Brat2Viz: a Tool and Pipeline for Visualizing Narratives from Annotated Texts<br><span style="color: grey;">(<strong>Evelin Amorim</strong>, Alexandre Ribeiro, Inês Cantante, Alípio Jorge, Brenda Santana, Sérgio Nunes, Purificação Silvano, António Leal and Ricardo Campos)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">14h45 – 15h05</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Modeling Social Media Narratives about Caste-related News Stories<br><span style="color: grey;">(<strong>Prashanth Vijayaraghavan</strong> and Lavanya Vijayaraghavan)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Mark Finlayson</td></tr>
+
+                        <tr>
+                            <td style="vertical-align: top">15h05 – 15h25</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Narrative Trends of COVID-19 Misinformation<br><span style="color: grey;">(<strong>Thomas Marcoux</strong> and Nitin Agarwal)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">15h25 – 15h55</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Stories from Blogs: Computational Extraction and Visualization of Narratives<br><span style="color: grey;">(<strong>Muhammad Nihal Hussain</strong>, Hayder Al Rubaye, Kiran Kumar Bandeli and Nitin Agarwal)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Bruno Martins</td></tr>
+                        
+                        <tr>
+                            <td style="vertical-align: top">15h55 – 16h25</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">A Different Story: How Conservative Narratives Diverge Between Twitter and Parler<br><span style="color: grey;">(<strong>Regina Catipon</strong> and Onur Savas)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">16h25 – 16h45</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Coffee Break<br><span style="color: grey;"></span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Alípio Jorge</td></tr>
+                        
+                        <tr>
+                            <td style="vertical-align: top">16h45 – 17h30</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Keynote 2: A Conversation with Leila Zia<br><span style="color: grey;">(<strong>Leila Zia</strong>, Wikimedia Foundation)</span></td>
+                        </tr>
+
+                        <tr style="color: grey;"><td>Session Chair: Sérgio Nunes</td></tr>
+                        
+                        <tr>
+                            <td style="vertical-align: top">17h30 – 18h00</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Which entities are relevant for the story?<br><span style="color: grey;">(<strong>Pooja Oza</strong> and Laura Dietz)</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="vertical-align: top">18h00 – 18h15</td>
+                            <td style="vertical-align: top; padding-bottom: 1em;">Wrap up & Awards<br><span style="color: grey;">(Ricardo Campos, Alípio Jorge, Adam Jatowt, Sumit Bhatia, Mark Finlayson)</span></td>
+                        </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- contact-section -->
+        <section id="section-attending" class="section-wrapper gray-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title">
+                            <h1>Attending</h1>
+                            <br>
+                            <p>
+                                Due to concerns about COVID-19, ECIR 2021 and Text2Story 2021 will be held entirely online.
+                            </p>
+                            <p>
+                                Free registration at <a href="https://www.ecir2021.eu/registration/" target="_blank"> ECIR 2021 </a> by <strong>March 25</strong> is required to attend the workshop (don't forget to select the Text2Story workshop).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row-->
+            </div>
+        </section>
+
+        <section id="section-attending" class="section-wrapper">
+
+            <div class="container">
+
+                <div class="section-title">
+                    <h3>Acknowledgements</h3>
+                    <p>
+                    This project is financed by the ERDF – European Regional Development Fund through the North Portugal Regional Operational Programme (NORTE 2020), under the PORTUGAL 2020  and by National Funds through the Portuguese funding agency, FCT - Fundação para a Ciência e a Tecnologia within project PTDC/CCI-COM/31857/2017 (NORTE-01-0145-FEDER-03185)</p>
+                </div>
+                
+                <div class="row text-center">
+
+                    <div class="col-sm-3">
+                        <a href="https://www.compete2020.gov.pt/" target="_blank">
+                            <img src="img/compete2020.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://www.portugal2020.pt/" target="_blank">
+                            <img src="img/portugal2020.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://ec.europa.eu/regional_policy/pt/funding/erdf/" target="_blank">
+                            <img src="img/uniaoeuropeia.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-3">
+                        <a href="https://www.fct.pt/" target="_blank">
+                            <img src="img/fct.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+                
+                </div>
+
+                <br>
+
+                <div class="row text-center">
+
+                    <div class="col-sm-3">
+                        <a href="https://www.inesctec.pt/pt/centros/liaad" target="_blank">
+                            <img src="img/liaad.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="http://www.ipt.pt/" target="_blank">
+                            <img src="img/ipt.jpg" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="http://www.ci2.ipt.pt/" target="_blank">
+                            <img src="img/ci2.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://www.uibk.ac.at/" target="_blank">
+                            <img src="img/universitaet_innsbruck.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                </div>
+                
+                <br>
+
+                <div class="row text-center">
+
+                    <div class="col-sm-3">
+                        <a href="https://sigarra.up.pt/fcup/" target="_blank">
+                            <img src="img/fcup.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://www.research.ibm.com/labs/india/" target="_blank">
+                            <img src="img/ibm_research.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://www.humane-ai.eu/" target="_blank">
+                            <img src="img/humane-ai.svg" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <a href="https://www.fiu.edu/" target="_blank">
+                            <img src="img/fiu.png" style="max-width: 100%; height: auto;" width="174">
+                        </a>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </section>
+        <footer class="footer">
+
+
+            <div class="copyright-section">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="text-center">Text2Story 2021 Workshop is part of <a href="https://www.ecir2020.org"
+                                target="_blank">ECIR2021</a>
+
+                            <p>
+                                For general inquiries regarding the workshop, reach the organizers at: <a
+                                    href="mailto:text2story2021@easychair.org ">text2story2021@easychair.org</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .copyright-section -->
+        </footer>
+
+        <!-- .footer -->
+
+    </div>
+    <!-- #main-wrapper -->
+
+
+    <!-- jquery -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+
+
+    <!--<script src="js/one-page-nav.js"></script>-->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
