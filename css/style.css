@@ -364,7 +364,7 @@ button:focus,
  *-------------------*/
 
 .jumbotron {
-  background: url("../img/bg/lucca.jpg");
+  background: url("../img/bg/stavanger1.jpg");
   background-size: cover;
   padding: 0;
   margin: 0;
@@ -402,6 +402,7 @@ button:focus,
   font-size: 24px;
   line-height: 1.5em;
   color: rgba(255, 255, 255, 1);
+  font-weight: normal;
 }
 
 .jumbotron .content .event-date {
